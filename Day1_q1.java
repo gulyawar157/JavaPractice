@@ -12,6 +12,7 @@ public class Day1_q1 {
 for(int i = 9; i>=0; i--){
         arr2[9-i] = arr[i];
         }
+ 
 
 for(int i = 0; i<10; i++){
       System.out.print(arr[i]);
