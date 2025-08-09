@@ -19,9 +19,5 @@ public class C3_Strings {
         System.out.printf(" The value of a is  %d and value of b is %9.3f \n", a, b );
     System.out.println( " The value of a is " + a + " The value of b is " + b );
 
-
-
-
-
     }
 }
