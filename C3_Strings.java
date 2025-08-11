@@ -11,8 +11,9 @@ public class C3_Strings {
         // System.out.println(str1);
 
         String name = "hello world";
+        String newname = new String("hello world");
         System.out.println(name);
-        System.out.print(name);
+        System.out.print(newname);
        
         int a = 6;
         float b = 9.4f;

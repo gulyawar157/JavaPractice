@@ -25,9 +25,30 @@ public class C6_Array {
      System.out.println(arr[i]);
         }
 
+        //* For-each oop in java */
+        for(int element : arr3){
+          System.out.println(element);
+        }
+
 
         // Getting the length of the array
       int n = arr3.length; 
       System.out.println(n);
+
+      //*2D Array */
+      int[][] matrix = new int[2][2];
+      matrix[0][0] = 8;
+       matrix[0][1] = 9;
+
+        matrix[1][0] = 10;
+         matrix[1][1] = 11;
+
+         for(int i = 0; i<2; i++){
+          for(int j = 0; j<2; j++){
+            System.out.print(matrix[i][j]  + " "  );
+          }
+          System.out.print("\n");
+         }
+
     }
 }
