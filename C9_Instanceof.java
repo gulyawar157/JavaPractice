@@ -21,7 +21,7 @@ public class C9_Instanceof {
           System.out.println(Germanshep instanceof Dogfamily);
 
 
-           // Note : Object is ancestor of all classes in Java
+    // Note : Object is ancestor of all classes in Java
         System.out.println(Germanshep instanceof Object);
 
 

@@ -27,12 +27,12 @@ public class C8_Wrapperclass_2 {
     public static void main(String[] args) {
         Maximum x = new Maximum();
 
-        x.insert(12);
-        x.insert(3);
-        x.insert(23);
+        x.insert(92);
+        x.insert(2);
+        x.insert(76);
 
-        System.out.println("Maximum element: " + x.top());
-        System.out.println("Number of elements inserted: "
+        System.out.println("Maximum element is  " + x.top());
+        System.out.println("Number of elements inserted are "
                            + x.elementnumber());
     }
 }

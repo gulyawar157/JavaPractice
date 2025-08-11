@@ -9,13 +9,12 @@ class Child extends Parent {
 
 
 
-public class C9_instaceof_2 {
+public class C9_instanceof_2 {
     public static void main(String[] args) {
          Parent cobj = new Child();
         Parent par = cobj;
 
-        // Using instanceof to make sure that par
-        // is a valid reference before typecasting
+        // Using instanceof to make sure that par is a valid reference before typecasting
         if (par instanceof Child) {
             System.out.println(
                 "Value accessed through "
