@@ -12,6 +12,7 @@ class base{
     public void basestatus(){
         System.out.println("I am in the base class noww");
     }
+
 }
 
 class derived extends base{
