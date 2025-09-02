@@ -1,5 +1,10 @@
+
 class base{
     int x;
+   {
+      x = 99; 
+   }
+  
 
     public void setX(int n){
         System.out.println("I am currently in the base setting X now : ");
@@ -16,6 +21,10 @@ class base{
 }
 
 class derived extends base{
+    {
+           x = 8;
+    }
+  
     int y;
     public void setY(int n){
         y = n;

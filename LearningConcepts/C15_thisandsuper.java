@@ -7,7 +7,6 @@ class newclass{
     public int getvalue(){
         return a;
     }
-
 }
 
 public class C15_thisandsuper {

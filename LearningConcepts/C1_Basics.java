@@ -1,4 +1,6 @@
 import java.util.*;
+
+
 public class C1_Basics {
     public static void main(String[] args){
         System.out.println("Hello World");
@@ -37,7 +39,5 @@ public class C1_Basics {
                 System.out.print("Enter number for verification ");
         boolean verify = sc.hasNextInt();
         System.out.println(verify);
-
- 
     }
 }

@@ -29,6 +29,7 @@ public class C12_constructors {
        System.out.println(e1.name);
 
        mainEmployee e2 = new mainEmployee();
+       e2.id = 333;
         System.out.println(e2.id);
        System.out.println(e2.name);
 

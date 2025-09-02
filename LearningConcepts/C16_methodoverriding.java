@@ -5,6 +5,7 @@ class A{
     }
 
     class B extends A{
+        @Override
          public void math1(){
             System.out.println("I am the method 1 of class B");
         }
